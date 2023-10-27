@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sete de Setembro</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <script src="teste.js"></script>
+</head>
+<body>
+   
+    <h1>Era Mesozoica</h1>
+<h2>A Facinante Hitória da era Mesozoica</h2>
+<p></p>
+<div id="textos">
+<p id="txt01"style="display:none">
+<br>A Era Mesozoica, que abrangeu um período de cerca de 186 milhões de anos, foi um dos capítulos mais notáveis da história da Terra. Ela é frequentemente chamada de "Era dos Dinossauros" devido à proeminência desses animais, mas também testemunhou mudanças significativas na vida, na geologia e no clima do nosso planeta.
+
+A Era Mesozoica começou após a extinção em massa no final do período Permiano, que eliminou cerca de 96% das espécies marinhas e cerca de 70% das espécies terrestres. Este evento foi um ponto de viragem na história da vida na Terra, permitindo que novas formas de vida evoluíssem e ocupassem os nichos ecológicos deixados vazios.
+
+Os três períodos geológicos da Era Mesozoica são os seguintes:
+
+<br>
+Triássico (252-201 milhões de anos atrás): O Triássico foi uma época de recuperação e diversificação após a extinção em massa do Permiano. Neste período, os primeiros dinossauros surgiram, juntamente com os primeiros mamíferos e répteis marinhos notáveis, como os ictiossauros e os plesiossauros. Os continentes estavam agrupados em uma única massa chamada Pangeia e começaram a se separar durante o Triássico.
+<br>
+<br>
+Jurássico (201-145 milhões de anos atrás): O Jurássico é frequentemente associado à época de ouro dos dinossauros. Criaturas como o Braquiossauro, o Estegossauro e o icônico Tiranossauro Rex viveram durante este período. Além disso, os primeiros pássaros evoluíram, e os continentes continuaram a se separar. Os mares estavam cheios de animais marinhos, incluindo os plesiossauros e os pliossauros.
+<br>
+<br>
+Cretáceo (145-66 milhões de anos atrás): O Cretáceo viu a diversificação contínua dos dinossauros, incluindo os famosos Tricerátops e o Velociraptor. Durante este período, ocorreram importantes desenvolvimentos, como o aparecimento das primeiras flores, que desencadearam uma explosão na diversidade de insetos e animais que dependiam delas. No final do Cretáceo, uma extinção em massa, a mais famosa de todas, eliminou os dinossauros não avianos, abrindo caminho para a próxima era geológica, o Cenozoico.
+<br>
+<br>
+A Era Mesozoica também foi marcada por mudanças geológicas e climáticas. Os continentes continuaram a se afastar, criando as configurações geográficas que conhecemos hoje. O clima variou, mas em geral, era mais quente e úmido do que o atual. Os oceanos continham uma abundância de vida marinha, incluindo inúmeras espécies de peixes, répteis marinhos e criaturas como os ammonites.
+
+A Era Mesozoica foi uma época de grande tumulto e transformação, com uma riqueza de biodiversidade e uma série de eventos geológicos e climáticos que moldaram o mundo que conhecemos hoje. Seu legado é evidente não apenas nos fósseis que deixou para trás, mas também nas complexas redes de vida e ecossistemas que continuam a evoluir na Terra.
+<br>
+<br> 
+Darwin, Charles.<b>"A Origem das Espécies por Meio de Seleção Natural." (1859)</b>
+Gould, Stephen Jay.<b>"A Explosão Cambriana."</b>Belknap Press (1990).</p>
+Carroll, Sean B.<b>"Endless Forms Most Beautiful: The New Science of Evo Devo and the Making of the Animal Kingdom."
+</b>W.W. Norton & Company (2005).</p>
+      
+</div>
+
+<button type="button" onclick="document.getElementById('txt01').style.display='block'">Saiba mais</button>
+<button type="button" onclick="document.getElementById('txt01').style.display='none'">Ocultar</button>
+
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="/javascript/img/dinossauros-patagonia.png" width="600"  height="400" alt=""></div>
+    <div class="swiper-slide"><img src="/javascript/img/sddefault.jpg"  width="600"height="400"></div>
+    <div class="swiper-slide"><img src="/javascript/img/espinossauro2.jpg"  width="600"height="400"></div>
+    <div class="swiper-slide"><img src="/javascript/img/Giganotosaurus - Julius Csotonyi.jpg"  width="600"height="400"></div>
+    <div class="swiper-slide"><img src="/javascript/img/Patagotitan_restoration_2019.png"  width="600"height="400"></div>
+    <div class="swiper-slide"><img src="/javascript/img/stegosaurus-scaled.jpg"  width="600"height="400"></div>
+    <div class="swiper-slide"><img src="/javascript/img/scientists-reveal-the-1.webp"  width="600"height="400"></div>
+    <div class="swiper-slide"><img src="/javascript/img/trike.jpg"  width="600"height="400"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});</script>
+
+
+
+
+</body>
+</html>
